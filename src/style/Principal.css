@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    transition: all 0.3s ease-in-out;
 }
 
 .principal{
@@ -11,9 +12,40 @@
     justify-content: center;
     align-items:center;
     color:white;
+    transition: all 0.3s ease-in-out;
 }
 
-.principal-title{
+.reloj{
+    font-size: 80px;
+    align-items: center;
+    position: relative;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.Character{
+    /* background-color: aliceblue; */
+    margin-top: 20vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.Character img{
+    position: relative;
+    /* transform: translateX(150px); */
+    transition: all 0.3s ease-in-out;
+}
+
+.Character img:hover{
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+}
+
+.Character img:active{
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+}
+
+/* .principal-title{
     font-size: 3rem;
     font-weight: bold;
     user-select: none;
@@ -22,4 +54,4 @@
 .principal-description{
     font-size: 1.5rem;
     user-select: none;
-}
+} */
