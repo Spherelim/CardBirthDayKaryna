@@ -6,6 +6,6 @@
 html, body, #root{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(2, 151, 189);
+    background-color: rgb(12, 201, 235);
     transition: all 0.3s ease-in-out;
 }

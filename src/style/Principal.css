@@ -13,26 +13,40 @@
     align-items:center;
     color:white;
     transition: all 0.3s ease-in-out;
+
+    background: linear-gradient(120deg, rgb(6, 226, 255) 0%, rgb(46, 95, 255) 100%);
+}
+
+.principal.muerto{
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(135deg, rgb(0, 0, 0) , rgb(0, 0, 0) );
 }
 
 .reloj{
     font-size: 80px;
     align-items: center;
-    position: relative;
+    position: absolute;
     color: black;
     transition: all 0.3s ease-in-out;
+    /* background-color: aliceblue; */
 }
 
 .Character{
     /* background-color: aliceblue; */
-    margin-top: 20vh;
+    margin-top: 10vh;
     transition: all 0.3s ease-in-out;
 }
 
 .Character img{
     position: relative;
+    width: 450px;
+    height: auto;
     /* transform: translateX(150px); */
     transition: all 0.3s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .Character img:hover{
