@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Titulo';
+    src: url(./fonts/CherryBombOne-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Carta';
+    src: url(./fonts/HachiMaruPop-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Carta_2';
+    src: url(./fonts/SueEllenFrancisco-Regular.ttf) format('truetype');
+}
+
 *{
   margin: 0;
   padding: 0;
