@@ -1,5 +1,5 @@
 
-import '../style/carta.css'
+import '../style/Carta.css'
 
 export default function Carta(){
     return(
