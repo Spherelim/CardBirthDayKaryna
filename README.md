@@ -17,5 +17,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 <div align=center>
-    <img src="https://emojiterra.com/es/cara-festejando/">
+    <img src="https://images.emojiterra.com/google/noto-emoji/animated-emoji/1f973.gif">
 </div>
